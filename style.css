@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header{
     min-height: 100vh;
