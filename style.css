@@ -13,6 +13,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow-x:hidden;
 }
 nav{
     display: flex;
@@ -51,47 +52,37 @@ nav image{
     width: 100%;
 }
 .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-    color: #eb2a2a;
     position: absolute;
-    bottom: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box h2{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
+
 .text-box p{
     width: 90%;
     color: #fff;
-    position: absolute;
-    top: 102%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
 }
 .hero-btn {
     width: 16%;
     color: #fff;
-    position: absolute;
-    bottom: 95%;
-    left: 52%;
-    transform: translate(-240%,+200%);
+    /* position: absolute; */
+    /* bottom: 95%;
+    left: 52%; */
+    /* transform: translate(-240%,+200%); */
     text-align: center; 
 }
 .text-box h1{
     font-size: 62px;
+    color: #fff;
 }
-.text-box h2{
-    font-size: 62px;
-}
+
 .text-box p{
     margin: 10px 0 50px;
     font-size: 16px;
@@ -255,6 +246,8 @@ h3{
 
 }
 .Customer-col{
+    display: flex;
+    flex-direction: column;
     flex-basis: 40%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -271,6 +264,10 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+
+.Customer-col > .image-container{
+    max-width: 400px;
 }
 
 /*--------- testimonials ----------*/
