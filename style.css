@@ -565,3 +565,13 @@ h3{
     transition: 1s;
 }
 
+/*----------- Contact Us Page ------------*/
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
