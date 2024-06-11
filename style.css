@@ -108,10 +108,14 @@ nav image{
 nav .fa{
     display: none;
 }
+.best_font {
+    color: #f44336;
+    font-family: serif;
+}
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 35px;
     }
     .nav-links ul li{
         display: block;
@@ -552,9 +556,8 @@ h3{
 .hero-bt{
     width: 16%;
     color: #40bde7;
-    position: absolute;
-    bottom: -38%;
-    left: 61%;
+    bottom: 30%;
+    left: 70%;
     transform: translate(-240%,+200%);
     text-align: center; 
 }
@@ -563,6 +566,14 @@ h3{
     border: 1px solid #40bde7;
     background: #40bde7;
     transition: 1s;
+}
+@media (max-width:797px)
+{
+  .hero-bt [class*="col-"] {
+    width: 100%;
+    bottom: 10%;
+  }
+
 }
 
 /*----------- Contact Us Page ------------*/
