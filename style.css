@@ -638,4 +638,7 @@ h3{
     background: #40bde7;
     transition: 1s;
 }
+@media screen {width: 700px;
+    
+}
 
