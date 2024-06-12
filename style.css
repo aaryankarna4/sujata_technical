@@ -70,7 +70,7 @@ nav image{
     text-align: center;
 }
 .hero-btn {
-    width: 16%;
+    /* width: 16%; */
     color: #fff;
     /* position: absolute; */
     /* bottom: 95%;
@@ -554,11 +554,9 @@ h3{
     color: #fff;
 }
 .hero-bt{
-    width: 16%;
+    width: max-content;
+    padding: 10px;
     color: #40bde7;
-    bottom: 30%;
-    left: 70%;
-    transform: translate(-240%,+200%);
     text-align: center; 
 }
 
@@ -627,9 +625,9 @@ h3{
     color: #fff;
 }
 .hero-btt{
-    width: 17%;
+    width: max-content;
+    padding: 10px;
     color: #40bde7;
-    position: absolute;
     text-align: center; 
 }
 
