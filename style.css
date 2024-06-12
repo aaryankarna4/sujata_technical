@@ -9,7 +9,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/images/banner3.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/images/5bd2afdbd5838-wallpaper-preview.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -637,8 +637,5 @@ h3{
     border: 1px solid #40bde7;
     background: #40bde7;
     transition: 1s;
-}
-@media screen {width: 700px;
-    
 }
 
